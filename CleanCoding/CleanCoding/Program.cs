@@ -29,7 +29,7 @@ namespace CleanCoding
                 hp = Double.Parse(Console.ReadLine());
                 Console.WriteLine("How many % of the total house price do you need upfront?" );
                 pn = Double.Parse(Console.ReadLine());          
-                double a = (hp / 50) * pn;
+                double a = (hp / 100) * pn;
                 Console.WriteLine(a + " amount you need");
             }
             else if (t == "2")
